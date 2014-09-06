@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+     
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_x="2dp"
+        android:layout_y="1dp"
+        android:maxHeight="300dp"
+        android:maxWidth="350dp"
+        android:src="@drawable/background" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="42dp"
+            android:layout_y="50dp"
+            android:gravity="center"
+            android:text="@string/inputperiodoftime"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="113dp"
+            android:layout_y="-212dp"
+            android:src="@drawable/clock" />
+
+   		 <Button
+   		     android:id="@+id/backtoweight"
+   		     android:layout_width="wrap_content"
+   		     android:layout_height="wrap_content"
+   		     android:layout_x="30dp"
+   		     android:layout_y="400dp"
+   		     android:text="@string/backtoweight" />
+
+   		 <Button
+   		     android:id="@+id/eveningbutton"
+   		     android:layout_width="wrap_content"
+   		     android:layout_height="wrap_content"
+   		     android:layout_x="114dp"
+   		     android:layout_y="341dp"
+   		     android:text="@string/evening" />
+
+   		 <Button
+   		     android:id="@+id/morningbutton"
+   		     android:layout_width="wrap_content"
+   		     android:layout_height="wrap_content"
+   		     android:layout_x="113dp"
+   		     android:layout_y="231dp"
+   		     android:text="@string/morning" />
+
+   		 <Button
+   		     android:id="@+id/afternoonbutton"
+   		     android:layout_width="wrap_content"
+   		     android:layout_height="wrap_content"
+   		     android:layout_x="107dp"
+   		     android:layout_y="287dp"
+   		     android:text="@string/afternoon" />
+
+</AbsoluteLayout>

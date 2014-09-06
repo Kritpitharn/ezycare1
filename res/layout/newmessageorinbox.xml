@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+	
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_x="2dp"
+        android:layout_y="1dp"
+        android:maxHeight="300dp"
+        android:maxWidth="350dp"
+        android:src="@drawable/background" />
+    
+    
+    <Button
+        android:id="@+id/backbloodpressure"
+        android:layout_width="178dp"
+        android:layout_height="wrap_content"
+        android:layout_x="68dp"
+        android:layout_y="268dp"
+        android:text="@string/in_box" />
+
+    <Button
+        android:id="@+id/nextconclusion"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_x="68dp"
+        android:layout_y="154dp"
+        android:text="@string/new_message" />
+
+	 <Button
+        android:id="@+id/afternoonbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="27dp"
+        android:layout_y="382dp"
+        android:text="@string/back" />
+    
+
+</AbsoluteLayout>
+

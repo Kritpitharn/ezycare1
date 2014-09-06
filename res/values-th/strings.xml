@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">อีซี่ แคร์</string>
+    <string name="hello_world">ไอดี</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_secon_page">SeconPage</string>
+    
+
+</resources>

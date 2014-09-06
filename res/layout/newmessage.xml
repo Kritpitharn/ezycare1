@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_x="2dp"
+        android:layout_y="1dp"
+        android:maxHeight="300dp"
+        android:maxWidth="350dp"
+        android:src="@drawable/background" />
+
+    <Button
+        android:id="@+id/nextconclusion"
+        android:layout_width="101dp"
+        android:layout_height="wrap_content"
+        android:layout_x="195dp"
+        android:layout_y="404dp"
+        android:text="@string/send" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="271dp"
+        android:layout_height="242dp"
+        android:layout_x="26dp"
+        android:layout_y="124dp"
+        android:ems="10"
+        android:hint="@string/typeyourmessage"
+        android:inputType="textPostalAddress" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/backbloodpressure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="36dp"
+        android:layout_y="400dp"
+        android:text="@string/back" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="99dp"
+        android:layout_y="11dp"
+        android:text="@string/new_message"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ImageButton
+        android:id="@+id/camerabutton"
+        android:layout_width="448dp"
+        android:layout_height="74dp"
+        android:layout_x="-59dp"
+        android:layout_y="40dp"
+        android:background="@null"
+        android:scaleType="centerCrop"
+        android:src="@drawable/cameraicon" />
+  		
+</AbsoluteLayout>

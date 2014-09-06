@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_x="2dp"
+        android:layout_y="1dp"
+        android:maxHeight="300dp"
+        android:maxWidth="350dp"
+        android:src="@drawable/background" />
+    
+     <TextView
+         android:id="@+id/textView1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_x="42dp"
+         android:layout_y="50dp"
+         android:gravity="center"
+         android:text="@string/inputbloodpressure"
+         android:textAppearance="?android:attr/textAppearanceLarge" />
+
+     <ImageView
+         android:id="@+id/imageView2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_x="51dp"
+         android:layout_y="25dp"
+         android:src="@drawable/bloodpressure" />
+
+     <EditText
+         android:id="@+id/editText1"
+         android:layout_width="124dp"
+         android:layout_height="wrap_content"
+         android:layout_x="84dp"
+         android:layout_y="206dp"
+         android:ems="10"
+         android:inputType="textPassword" />
+
+     <TextView
+         android:id="@+id/textView3"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_x="226dp"
+         android:layout_y="214dp"
+         android:text="@string/mmhg"
+         android:textAppearance="?android:attr/textAppearanceLarge" />
+
+     <TextView
+         android:id="@+id/textView2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_x="30dp"
+         android:layout_y="211dp"
+         android:text="@string/sys"
+         android:textAppearance="?android:attr/textAppearanceLarge" />
+
+     <TextView
+         android:id="@+id/textView4"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_x="31dp"
+         android:layout_y="265dp"
+         android:text="@string/dya"
+         android:textAppearance="?android:attr/textAppearanceLarge" />
+
+     <EditText
+         android:id="@+id/editText2"
+         android:layout_width="130dp"
+         android:layout_height="wrap_content"
+         android:layout_x="87dp"
+         android:layout_y="258dp"
+         android:ems="10"
+         android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/backbloodpressure"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="27dp"
+            android:layout_y="382dp"
+            android:text="@string/backtosignofheartfailure" />
+    
+    <Button
+        android:id="@+id/nextconclusion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="233dp"
+        android:layout_y="386dp"
+        android:text="@string/nexttosignofheartfaillure" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="226dp"
+        android:layout_y="265dp"
+        android:text="@string/mmhg"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+     
+</AbsoluteLayout>
